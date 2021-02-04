@@ -3,27 +3,79 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		425CC10525C958D5008B15F4 /* PokedexEntryDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425CC10425C958D5008B15F4 /* PokedexEntryDto.swift */; };
+		425CC11825C9656B008B15F4 /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425CC11725C9656B008B15F4 /* ExtensionViewController.swift */; };
+		425CC12125C9709B008B15F4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425CC12025C9709B008B15F4 /* Router.swift */; };
+		425CC12525C974C1008B15F4 /* DetailDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425CC12425C974C1008B15F4 /* DetailDataSource.swift */; };
+		425CC12825C974CE008B15F4 /* DetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425CC12725C974CE008B15F4 /* DetailRepository.swift */; };
+		425CC12B25C9751D008B15F4 /* DetailContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425CC12A25C9751D008B15F4 /* DetailContract.swift */; };
+		425CC12E25C97526008B15F4 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425CC12D25C97526008B15F4 /* DetailPresenter.swift */; };
+		425CC13725C98038008B15F4 /* DetailPokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425CC13625C98038008B15F4 /* DetailPokemonViewModel.swift */; };
+		425CC13B25C98085008B15F4 /* PokemonDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425CC13A25C98085008B15F4 /* PokemonDetailModel.swift */; };
+		425CC17C25C9D2AA008B15F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425CC17B25C9D2AA008B15F4 /* Constants.swift */; };
+		425CC18E25C9E7A3008B15F4 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425CC18D25C9E7A3008B15F4 /* ExtensionString.swift */; };
 		4277955B25C822D400B1C046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4277955A25C822D400B1C046 /* AppDelegate.swift */; };
-		4277955D25C822D400B1C046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4277955C25C822D400B1C046 /* SceneDelegate.swift */; };
-		4277955F25C822D400B1C046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4277955E25C822D400B1C046 /* ViewController.swift */; };
 		4277956225C822D400B1C046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4277956025C822D400B1C046 /* Main.storyboard */; };
 		4277956425C822D500B1C046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4277956325C822D500B1C046 /* Assets.xcassets */; };
 		4277956725C822D500B1C046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4277956525C822D500B1C046 /* LaunchScreen.storyboard */; };
+		4277959C25C8307B00B1C046 /* DexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4277959B25C8307B00B1C046 /* DexViewController.swift */; };
+		427795A025C8403300B1C046 /* DexPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4277959F25C8403300B1C046 /* DexPresenter.swift */; };
+		4293D54825C84F4500082351 /* DexContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D54725C84F4500082351 /* DexContract.swift */; };
+		4293D55125C8512300082351 /* ApiPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D55025C8512300082351 /* ApiPath.swift */; };
+		4293D55825C8543D00082351 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D55725C8543D00082351 /* NetworkLayer.swift */; };
+		4293D56525C856EC00082351 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D56425C856EC00082351 /* JsonParser.swift */; };
+		4293D56825C862AC00082351 /* PokemonInfoDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D56725C862AC00082351 /* PokemonInfoDto.swift */; };
+		4293D56F25C869D300082351 /* PokemonSpeciesDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D56E25C869D300082351 /* PokemonSpeciesDto.swift */; };
+		4293D58725C8785B00082351 /* DexEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D58625C8785B00082351 /* DexEntryCell.swift */; };
+		4293D58B25C8799D00082351 /* PokemonBasicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D58A25C8799D00082351 /* PokemonBasicModel.swift */; };
+		4293D58F25C87EAB00082351 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D58E25C87EAB00082351 /* BaseTableViewCell.swift */; };
+		4293D59925C882B600082351 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D59825C882B600082351 /* DetailViewController.swift */; };
+		4293D5A125C88B2D00082351 /* DexRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D5A025C88B2D00082351 /* DexRepository.swift */; };
+		4293D5A525C88B3600082351 /* DexDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D5A425C88B3600082351 /* DexDataSource.swift */; };
+		4293D5AA25C89B4600082351 /* DexPokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D5A925C89B4600082351 /* DexPokemonViewModel.swift */; };
+		C69A87F6E171AA66B324B3C9 /* Pods_KantoDex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293CA7FBDF7FC9CFF2FE62E0 /* Pods_KantoDex.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		293CA7FBDF7FC9CFF2FE62E0 /* Pods_KantoDex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KantoDex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		305A4743776D5DF1C06F019A /* Pods-KantoDex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KantoDex.debug.xcconfig"; path = "Target Support Files/Pods-KantoDex/Pods-KantoDex.debug.xcconfig"; sourceTree = "<group>"; };
+		425CC10425C958D5008B15F4 /* PokedexEntryDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexEntryDto.swift; sourceTree = "<group>"; };
+		425CC11725C9656B008B15F4 /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		425CC12025C9709B008B15F4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		425CC12425C974C1008B15F4 /* DetailDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDataSource.swift; sourceTree = "<group>"; };
+		425CC12725C974CE008B15F4 /* DetailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRepository.swift; sourceTree = "<group>"; };
+		425CC12A25C9751D008B15F4 /* DetailContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContract.swift; sourceTree = "<group>"; };
+		425CC12D25C97526008B15F4 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		425CC13625C98038008B15F4 /* DetailPokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPokemonViewModel.swift; sourceTree = "<group>"; };
+		425CC13A25C98085008B15F4 /* PokemonDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailModel.swift; sourceTree = "<group>"; };
+		425CC17B25C9D2AA008B15F4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		425CC18D25C9E7A3008B15F4 /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
 		4277955725C822D400B1C046 /* KantoDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KantoDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4277955A25C822D400B1C046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4277955C25C822D400B1C046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4277955E25C822D400B1C046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4277956125C822D400B1C046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4277956325C822D500B1C046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4277956625C822D500B1C046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4277956825C822D500B1C046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4277959B25C8307B00B1C046 /* DexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexViewController.swift; sourceTree = "<group>"; };
+		4277959F25C8403300B1C046 /* DexPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexPresenter.swift; sourceTree = "<group>"; };
+		4293D54725C84F4500082351 /* DexContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexContract.swift; sourceTree = "<group>"; };
+		4293D55025C8512300082351 /* ApiPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPath.swift; sourceTree = "<group>"; };
+		4293D55725C8543D00082351 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		4293D56425C856EC00082351 /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		4293D56725C862AC00082351 /* PokemonInfoDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonInfoDto.swift; sourceTree = "<group>"; };
+		4293D56E25C869D300082351 /* PokemonSpeciesDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSpeciesDto.swift; sourceTree = "<group>"; };
+		4293D58625C8785B00082351 /* DexEntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexEntryCell.swift; sourceTree = "<group>"; };
+		4293D58A25C8799D00082351 /* PokemonBasicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonBasicModel.swift; sourceTree = "<group>"; };
+		4293D58E25C87EAB00082351 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		4293D59825C882B600082351 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4293D5A025C88B2D00082351 /* DexRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexRepository.swift; sourceTree = "<group>"; };
+		4293D5A425C88B3600082351 /* DexDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexDataSource.swift; sourceTree = "<group>"; };
+		4293D5A925C89B4600082351 /* DexPokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexPokemonViewModel.swift; sourceTree = "<group>"; };
+		D5D1602C615018E0741D73ED /* Pods-KantoDex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KantoDex.release.xcconfig"; path = "Target Support Files/Pods-KantoDex/Pods-KantoDex.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +83,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69A87F6E171AA66B324B3C9 /* Pods_KantoDex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4200AA2E25CADFD10067FEDC /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				4277956325C822D500B1C046 /* Assets.xcassets */,
+				4277956525C822D500B1C046 /* LaunchScreen.storyboard */,
+				4277956025C822D400B1C046 /* Main.storyboard */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		4200AA2F25CAE0460067FEDC /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				4293D59525C8828900082351 /* detail */,
+				4277959825C8302600B1C046 /* home */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		4200AA3725CAE2A60067FEDC /* app */ = {
+			isa = PBXGroup;
+			children = (
+				4277955A25C822D400B1C046 /* AppDelegate.swift */,
+				4277956825C822D500B1C046 /* Info.plist */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		425CC11625C9655C008B15F4 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				425CC18D25C9E7A3008B15F4 /* ExtensionString.swift */,
+				425CC11725C9656B008B15F4 /* ExtensionViewController.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		425CC11F25C97091008B15F4 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				425CC12025C9709B008B15F4 /* Router.swift */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+		425CC13525C98027008B15F4 /* view model */ = {
+			isa = PBXGroup;
+			children = (
+				425CC13625C98038008B15F4 /* DetailPokemonViewModel.swift */,
+			);
+			path = "view model";
+			sourceTree = "<group>";
+		};
 		4277954E25C822D400B1C046 = {
 			isa = PBXGroup;
 			children = (
 				4277955925C822D400B1C046 /* KantoDex */,
 				4277955825C822D400B1C046 /* Products */,
+				7CC72907CDACD6A1464E5E85 /* Pods */,
+				B7D13A8CDE6673DCDED7F7FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +164,171 @@
 		4277955925C822D400B1C046 /* KantoDex */ = {
 			isa = PBXGroup;
 			children = (
-				4277955A25C822D400B1C046 /* AppDelegate.swift */,
-				4277955C25C822D400B1C046 /* SceneDelegate.swift */,
-				4277955E25C822D400B1C046 /* ViewController.swift */,
-				4277956025C822D400B1C046 /* Main.storyboard */,
-				4277956325C822D500B1C046 /* Assets.xcassets */,
-				4277956525C822D500B1C046 /* LaunchScreen.storyboard */,
-				4277956825C822D500B1C046 /* Info.plist */,
+				4200AA3725CAE2A60067FEDC /* app */,
+				4293D54E25C8510100082351 /* data */,
+				425CC11F25C97091008B15F4 /* navigation */,
+				4277959725C8301600B1C046 /* ui */,
 			);
 			path = KantoDex;
+			sourceTree = "<group>";
+		};
+		4277959725C8301600B1C046 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				425CC11625C9655C008B15F4 /* extensions */,
+				4200AA2F25CAE0460067FEDC /* presentation */,
+				4200AA2E25CADFD10067FEDC /* resources */,
+				4293D58D25C87EA000082351 /* utils */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		4277959825C8302600B1C046 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				4277959925C8305200B1C046 /* presenter */,
+				4277959A25C8305800B1C046 /* view */,
+				4293D5A825C89B3100082351 /* view model */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		4277959925C8305200B1C046 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4293D54725C84F4500082351 /* DexContract.swift */,
+				4277959F25C8403300B1C046 /* DexPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		4277959A25C8305800B1C046 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4293D58525C8784C00082351 /* cell */,
+				4277959B25C8307B00B1C046 /* DexViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4293D54E25C8510100082351 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				4293D54F25C8511600082351 /* api */,
+				4293D55E25C8569400082351 /* model */,
+				4293D59F25C88AF700082351 /* repository */,
+				4293D56325C856E300082351 /* utils */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		4293D54F25C8511600082351 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				4293D55025C8512300082351 /* ApiPath.swift */,
+				4293D55725C8543D00082351 /* NetworkLayer.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		4293D55E25C8569400082351 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				425CC10425C958D5008B15F4 /* PokedexEntryDto.swift */,
+				4293D56725C862AC00082351 /* PokemonInfoDto.swift */,
+				4293D56E25C869D300082351 /* PokemonSpeciesDto.swift */,
+				4293D58A25C8799D00082351 /* PokemonBasicModel.swift */,
+				425CC13A25C98085008B15F4 /* PokemonDetailModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4293D56325C856E300082351 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				4293D56425C856EC00082351 /* JsonParser.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		4293D58525C8784C00082351 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				4293D58625C8785B00082351 /* DexEntryCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		4293D58D25C87EA000082351 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				4293D58E25C87EAB00082351 /* BaseTableViewCell.swift */,
+				425CC17B25C9D2AA008B15F4 /* Constants.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		4293D59525C8828900082351 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				4293D59625C8829500082351 /* presenter */,
+				4293D59725C8829900082351 /* view */,
+				425CC13525C98027008B15F4 /* view model */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		4293D59625C8829500082351 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				425CC12A25C9751D008B15F4 /* DetailContract.swift */,
+				425CC12D25C97526008B15F4 /* DetailPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		4293D59725C8829900082351 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4293D59825C882B600082351 /* DetailViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4293D59F25C88AF700082351 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				425CC12425C974C1008B15F4 /* DetailDataSource.swift */,
+				425CC12725C974CE008B15F4 /* DetailRepository.swift */,
+				4293D5A425C88B3600082351 /* DexDataSource.swift */,
+				4293D5A025C88B2D00082351 /* DexRepository.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		4293D5A825C89B3100082351 /* view model */ = {
+			isa = PBXGroup;
+			children = (
+				4293D5A925C89B4600082351 /* DexPokemonViewModel.swift */,
+			);
+			path = "view model";
+			sourceTree = "<group>";
+		};
+		7CC72907CDACD6A1464E5E85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				305A4743776D5DF1C06F019A /* Pods-KantoDex.debug.xcconfig */,
+				D5D1602C615018E0741D73ED /* Pods-KantoDex.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B7D13A8CDE6673DCDED7F7FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				293CA7FBDF7FC9CFF2FE62E0 /* Pods_KantoDex.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +338,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4277956B25C822D500B1C046 /* Build configuration list for PBXNativeTarget "KantoDex" */;
 			buildPhases = (
+				28B45184A6D8BBFCA5B65D80 /* [CP] Check Pods Manifest.lock */,
 				4277955325C822D400B1C046 /* Sources */,
 				4277955425C822D400B1C046 /* Frameworks */,
 				4277955525C822D400B1C046 /* Resources */,
+				29B7359187976C76C35CF5AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +398,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28B45184A6D8BBFCA5B65D80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KantoDex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29B7359187976C76C35CF5AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KantoDex/Pods-KantoDex-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KantoDex/Pods-KantoDex-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KantoDex/Pods-KantoDex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4277955325C822D400B1C046 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4277955F25C822D400B1C046 /* ViewController.swift in Sources */,
+				425CC12125C9709B008B15F4 /* Router.swift in Sources */,
+				425CC10525C958D5008B15F4 /* PokedexEntryDto.swift in Sources */,
 				4277955B25C822D400B1C046 /* AppDelegate.swift in Sources */,
-				4277955D25C822D400B1C046 /* SceneDelegate.swift in Sources */,
+				4293D58725C8785B00082351 /* DexEntryCell.swift in Sources */,
+				425CC17C25C9D2AA008B15F4 /* Constants.swift in Sources */,
+				4293D56825C862AC00082351 /* PokemonInfoDto.swift in Sources */,
+				4293D55125C8512300082351 /* ApiPath.swift in Sources */,
+				4293D58B25C8799D00082351 /* PokemonBasicModel.swift in Sources */,
+				4293D59925C882B600082351 /* DetailViewController.swift in Sources */,
+				425CC13725C98038008B15F4 /* DetailPokemonViewModel.swift in Sources */,
+				425CC12B25C9751D008B15F4 /* DetailContract.swift in Sources */,
+				4293D5A125C88B2D00082351 /* DexRepository.swift in Sources */,
+				427795A025C8403300B1C046 /* DexPresenter.swift in Sources */,
+				425CC12825C974CE008B15F4 /* DetailRepository.swift in Sources */,
+				4293D56F25C869D300082351 /* PokemonSpeciesDto.swift in Sources */,
+				425CC13B25C98085008B15F4 /* PokemonDetailModel.swift in Sources */,
+				4293D55825C8543D00082351 /* NetworkLayer.swift in Sources */,
+				4293D5A525C88B3600082351 /* DexDataSource.swift in Sources */,
+				425CC18E25C9E7A3008B15F4 /* ExtensionString.swift in Sources */,
+				425CC12525C974C1008B15F4 /* DetailDataSource.swift in Sources */,
+				4293D56525C856EC00082351 /* JsonParser.swift in Sources */,
+				4277959C25C8307B00B1C046 /* DexViewController.swift in Sources */,
+				4293D5AA25C89B4600082351 /* DexPokemonViewModel.swift in Sources */,
+				4293D58F25C87EAB00082351 /* BaseTableViewCell.swift in Sources */,
+				425CC12E25C97526008B15F4 /* DetailPresenter.swift in Sources */,
+				4293D54825C84F4500082351 /* DexContract.swift in Sources */,
+				425CC11825C9656B008B15F4 /* ExtensionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +615,13 @@
 		};
 		4277956C25C822D500B1C046 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305A4743776D5DF1C06F019A /* Pods-KantoDex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KantoDex/Info.plist;
+				INFOPLIST_FILE = KantoDex/app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,17 +629,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = eduardo.flores.KantoDex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4277956D25C822D500B1C046 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D1602C615018E0741D73ED /* Pods-KantoDex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KantoDex/Info.plist;
+				INFOPLIST_FILE = KantoDex/app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +649,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = eduardo.flores.KantoDex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

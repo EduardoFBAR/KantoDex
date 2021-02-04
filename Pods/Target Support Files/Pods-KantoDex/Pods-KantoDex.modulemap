@@ -1,0 +1,6 @@
+framework module Pods_KantoDex {
+  umbrella header "Pods-KantoDex-umbrella.h"
+
+  export *
+  module * { export * }
+}
