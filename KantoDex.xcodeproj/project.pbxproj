@@ -139,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				425CC13625C98038008B15F4 /* DetailPokemonViewModel.swift */,
+				425CC13A25C98085008B15F4 /* PokemonDetailModel.swift */,
 			);
 			path = "view model";
 			sourceTree = "<group>";
@@ -237,8 +238,6 @@
 				425CC10425C958D5008B15F4 /* PokedexEntryDto.swift */,
 				4293D56725C862AC00082351 /* PokemonInfoDto.swift */,
 				4293D56E25C869D300082351 /* PokemonSpeciesDto.swift */,
-				4293D58A25C8799D00082351 /* PokemonBasicModel.swift */,
-				425CC13A25C98085008B15F4 /* PokemonDetailModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -310,6 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				4293D5A925C89B4600082351 /* DexPokemonViewModel.swift */,
+				4293D58A25C8799D00082351 /* PokemonBasicModel.swift */,
 			);
 			path = "view model";
 			sourceTree = "<group>";
@@ -548,7 +548,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -603,7 +603,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
